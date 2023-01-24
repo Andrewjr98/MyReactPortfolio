@@ -1,0 +1,99 @@
+:root{
+    --font-family: Georgia, 'Times New Roman', Times, serif;
+    --color:#003049;
+    --background-light: #83c5be;
+    --border-radius:50px 50px 50px 50px;
+    --shadow:#457b9d;
+}
+body{
+    font-size: 25px;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 2.0;
+    margin-bottom: 10px;
+}
+header{
+    padding: 40px;
+    text-align:center;
+    background: var(--background-light);
+    color:var(--color);
+    border-radius: var(--border-radius);
+}
+nav{
+display:flex;
+background-color: var(--color);
+border-radius: var(--border-radius);
+}
+
+nav a{ 
+    color: var(--background-light);
+    padding: 14px 20px;
+    align-items: flex-start;
+}
+
+
+.Subjects{
+    border-style:solid;
+    border-width:5px;
+    border-radius: var(--border-radius);
+    padding:10px;
+    flex: 0 0 300px;
+    margin: 20px;
+    background-color:var(--color);
+    color: var(--background-light);
+    flex-direction: column;
+}
+.card > h2{
+    padding: 40px;
+    text-align:center;
+    background: var(--background-light);
+    color:var(--color);
+    border-radius: var(--border-radius);
+}
+.card > p{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+font-size:medium;
+text-align:justify;
+}
+.card > a img{
+    width:25%;  
+    height:25%;
+    align-items: center;  
+}
+.card > a img:hover{
+    width:35%;
+    height:35%;
+    box-shadow: 10px 10px #457b9d;
+}
+.cardTwo > h2{
+    padding: 40px;
+    text-align:center;
+    background: var(--background-light);
+    color:var(--color);
+    border-radius: var(--border-radius);
+}
+.cardTwo > img{
+    width: 25%;
+    height: 25%;
+    box-shadow: 10px 10px #457b9d;
+}
+nav a:hover {
+    background-color: var(--shadow);
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--shadow);
+    color: var(--color);
+    margin-top: auto;
+}
