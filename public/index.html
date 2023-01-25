@@ -1,57 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    <title>Andrew J Randolph Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Hello I'm Andrew</h1>
-        <p>Web Developer in Training</p>
-       <nav>
-        <a href="#About">About</a>
-        <a href="#Projects"> Projects</a>
-        <a href="#Contact">Contact</a>
-        <a href="#My-Skills">My-Skills</a>
-       </nav>    
-</header>
-<main class="Subjects">
-    
-        <section class="card">
-        <h2>About</h2>
-        <img src="./assets/images/Andrew.JPG" alt="Andrew Randolph">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tellus at urna condimentum mattis pellentesque id nibh. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Magna etiam tempor orci eu lobortis elementum nibh. Leo vel orci porta non pulvinar. Ac turpis egestas maecenas pharetra convallis posuere. Sed vulputate mi sit amet mauris. Enim eu turpis egestas pretium aenean pharetra. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Varius sit amet mattis vulputate. Amet dictum sit amet justo donec. Viverra suspendisse potenti nullam ac tortor vitae purus. Aenean et tortor at risus viverra adipiscing at. In arcu cursus euismod quis. Mi quis hendrerit dolor magna eget.</p>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    </section>
-    <section class="card">
-            <h2>Projects</h2>
-            <a href="https://andrewjr98.github.io/Horiseon/"><img src="./assets/images/Project.png" alt="Previous Projects"></a>
-            <a href="https://carson-loser.github.io/Media-Suggestor/"><img src="assets\images\Updated-Gif.gif"></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tellus at urna condimentum mattis pellentesque id nibh. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Magna etiam tempor orci eu lobortis elementum nibh. Leo vel orci porta non pulvinar. Ac turpis egestas maecenas pharetra convallis posuere. Sed vulputate mi sit amet mauris. Enim eu turpis egestas pretium aenean pharetra. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Varius sit amet mattis vulputate. Amet dictum sit amet justo donec. Viverra suspendisse potenti nullam ac tortor vitae purus. Aenean et tortor at risus viverra adipiscing at. In arcu cursus euismod quis. Mi quis hendrerit dolor magna eget.</p>
-        </section>
-        <section class="cardTwo">
-            <h2>My Skills</h2>
-            <img src="./assets/images/VSCode.jpg" alt="VS Code Snippet">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tellus at urna condimentum mattis pellentesque id nibh. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Magna etiam tempor orci eu lobortis elementum nibh. Leo vel orci porta non pulvinar. Ac turpis egestas maecenas pharetra convallis posuere. Sed vulputate mi sit amet mauris. Enim eu turpis egestas pretium aenean pharetra. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Varius sit amet mattis vulputate. Amet dictum sit amet justo donec. Viverra suspendisse potenti nullam ac tortor vitae purus. Aenean et tortor at risus viverra adipiscing at. In arcu cursus euismod quis. Mi quis hendrerit dolor magna eget.</p>
-        </section>
-        <section class="cardTwo">
-            <h2>Contact</h2>
-            <ul>
-                <li>Phone Number: (806)787-2101</li>
-                <li> <a href="mailto:andrewrandolph98@gmail.com?">Email: andrewrandolph98@gmail.com</a></li>
-                <li><a href= https://github.com/Andrewjr98>https://github.com/Andrewjr98</a></li>
-            </ul>
-        </section>
-    
-</main>
-    
-</body>
-<footer>
-    <div class="footer">
-        <p></p>
-    </div>
-</footer>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React Portfolio</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
