@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
             return <Home/>;
         }
         if (currentPage === 'About') {
-            return <About/>;
+            return <Home/>;
         }
         if (currentPage === 'Projects') {
             return <Projects/>;
