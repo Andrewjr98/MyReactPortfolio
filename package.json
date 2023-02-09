@@ -2,6 +2,7 @@
     "name": "myreactportfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://andrewjr98.github.io/MyReactPortfolio",
     "dependencies": {
         "bootstrap": "^5.2.3",
         "gh-pages": "^5.0.0",
@@ -36,6 +37,6 @@
     "devDependencies": {
         "@testing-library/jest-dom": "^5.8.0",
         "@testing-library/react": "^9.5.0"
-    },
-    "homepage": "https://andrewjr98.github.io/MyReactPortfolio/"
+    }
+    
 }
