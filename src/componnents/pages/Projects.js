@@ -19,7 +19,7 @@ export default function Projects() {
                     }}>
                        
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Derma: Your Skin. Your Choice.</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <a href="https://derma-drew.herokuapp.com/ord" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -30,9 +30,9 @@ export default function Projects() {
                         backgroundColor: "#1b263b"
                     }}>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Dinero Expense Tracker</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://secure-inlet-31146.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -44,9 +44,9 @@ export default function Projects() {
                         backgroundColor: "#1b263b"
                     }}>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Password Generator</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://andrewjr98.github.io/Password-Generator/" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -55,9 +55,9 @@ export default function Projects() {
                         backgroundColor: "#1b263b"
                     }}>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Media Suggestor</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://carson-loser.github.io/Media-Suggestor/" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -69,9 +69,9 @@ export default function Projects() {
                         backgroundColor: "#1b263b"
                     }}>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Text Arduino</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://mysterious-ravine-74066.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@ export default function Projects() {
                         backgroundColor: "#1b263b"
                     }}>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">E-Commerce Backend</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://github.com/Andrewjr98/E-Commerce_Back_End" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
