@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className='nav-item'>
       <a
-          href="https://drive.google.com/file/d/1E1s6NAbQRe3cC8Ae3rvAidqUMLtuzS4L/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1s92H2lxD50KfzdG9JlsxLcrONzjKj_e2/view?usp=sharing" 
           target="_blank"
           rel="noreferrer"
           // onClick={() => handlePageChange('Contact')}
