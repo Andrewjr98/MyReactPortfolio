@@ -7,10 +7,10 @@ export default function Home() {
                 backgroundColor: "#415a77",
                 color: "#e0e1dd",
             }}>
-            <h1 class="mx-auto" style={{
+            <h1 className="mx-auto" style={{
                 width: "400px"
             }}>About Me</h1>
-            <div class="m-3 p-3" style={{
+            <div className="m-3 p-3" style={{
                 color: "#e0e1dd",
                 backgroundColor: "#1b263b",
                 fontSize: "x-large",

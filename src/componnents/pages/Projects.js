@@ -9,80 +9,80 @@ export default function Projects() {
             width: "max"
         }}
         >
-            <h1 class="mx-auto" style={{
+            <h1 className="mx-auto" style={{
                 width: "400px"
             }}>Projects Page</h1>
-            <div class="row" >
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card" style={{
+            <div className="row" >
+                <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="card" style={{
                         backgroundColor: "#1b263b"
                     }}>
                        
-                        <div class="card-body">
-                            <h5 class="card-title">Derma: Your Skin. Your Choice.</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://derma-drew.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
+                        <div className="card-body">
+                            <h5 className="card-title">Derma: Your Skin. Your Choice.</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://derma-drew.herokuapp.com/" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card" style={{
+                <div className="col-sm-6">
+                    <div className="card" style={{
                         backgroundColor: "#1b263b"
                     }}>
-                        <div class="card-body">
-                            <h5 class="card-title">Dinero Expense Tracker</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://secure-inlet-31146.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card" style={{
-                        backgroundColor: "#1b263b"
-                    }}>
-                        <div class="card-body">
-                            <h5 class="card-title">Password Generator</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://andrewjr98.github.io/Password-Generator/" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card" style={{
-                        backgroundColor: "#1b263b"
-                    }}>
-                        <div class="card-body">
-                            <h5 class="card-title">Media Suggestor</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://carson-loser.github.io/Media-Suggestor/" class="btn btn-primary">Go somewhere</a>
+                        <div className="card-body">
+                            <h5 className="card-title">Dinero Expense Tracker</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://secure-inlet-31146.herokuapp.com/" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card" style={{
+            <div className="row">
+                <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="card" style={{
                         backgroundColor: "#1b263b"
                     }}>
-                        <div class="card-body">
-                            <h5 class="card-title">Text Arduino</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://mysterious-ravine-74066.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
+                        <div className="card-body">
+                            <h5 className="card-title">Password Generator</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://andrewjr98.github.io/Password-Generator/" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card" style={{
+                <div className="col-sm-6">
+                    <div className="card" style={{
                         backgroundColor: "#1b263b"
                     }}>
-                        <div class="card-body">
-                            <h5 class="card-title">E-Commerce Backend</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://github.com/Andrewjr98/E-Commerce_Back_End" class="btn btn-primary">Go somewhere</a>
+                        <div className="card-body">
+                            <h5 className="card-title">Media Suggestor</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://carson-loser.github.io/Media-Suggestor/" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="card" style={{
+                        backgroundColor: "#1b263b"
+                    }}>
+                        <div className="card-body">
+                            <h5 className="card-title">Text Arduino</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://mysterious-ravine-74066.herokuapp.com/" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-6">
+                    <div className="card" style={{
+                        backgroundColor: "#1b263b"
+                    }}>
+                        <div className="card-body">
+                            <h5 className="card-title">E-Commerce Backend</h5>
+                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="https://github.com/Andrewjr98/E-Commerce_Back_End" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
