@@ -5,13 +5,13 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs m-3" style={{
-      
+
       backgroundColor: '#faf0ca',
       width: 'max',
       height: 'max'
-      
+
     }}  >
-      
+
       <li className="nav-item" >
         <a
           href="#home"
@@ -21,6 +21,15 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Andrew Randolph
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a
+          href='#Skills'
+          onClick={() => handlePageChange('Skills')}
+          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
+        >
+          Skills
         </a>
       </li>
       <li className="nav-item">
@@ -44,8 +53,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className='nav-item'>
-      <a
-          href="https://drive.google.com/file/d/1s92H2lxD50KfzdG9JlsxLcrONzjKj_e2/view?usp=sharing" 
+        <a
+          href="https://drive.google.com/file/d/1Jsj8adq53xGMwDHWEuE0atT3MFSR8VWP/view?usp=share_link"
           target="_blank"
           rel="noreferrer"
           // onClick={() => handlePageChange('Contact')}
