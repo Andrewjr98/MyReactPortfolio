@@ -43,8 +43,8 @@ export default function Skills() {
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-start">
                     <div className="ms-2 me-auto">
-                        <div className="fw-bold">Subheading</div>
-                        Content for list item
+                        <div className="fw-bold">React</div>
+                        React is My strongest skill. I worked a lot with this and GraphQL as well as Apollo to build my resume as well as a web forum. It cuts down on a lot of time and I loved working with it. 
                     </div>
                     <span className="badge bg-primary rounded-pill"></span>
                 </li>
